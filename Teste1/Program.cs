@@ -50,6 +50,9 @@ namespace Teste1
                 }
             }
 
+            Console.WriteLine("Texto modificado:");
+            Console.WriteLine(newText);
+            Console.WriteLine("");
             Console.WriteLine($"{text.Length - newText.Length} caracteres removidos.");
             Console.WriteLine("");
             ShowOptions();
